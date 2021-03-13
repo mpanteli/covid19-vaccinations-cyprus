@@ -1,6 +1,6 @@
 <head>
 	<meta name="description" CONTENT="COVID19 Vaccinations Cyprus, dataset and visualisation. Source: Official data published by http://pio.gov.cy/coronavirus/ and compiled by the covid19-vaccinations-cyprus project.">
-	<meta name="google-site-verification" content="dHuB-AtI8QKB1TlMWNPfS7BbsSwpAMMsv7ALNn0kdOY" />
+	<meta name="google-site-verification" content="-vzF49g2tzy9DFe2Y81uQ8StmDZWwe7mi-sDCutMMag" />
 </head>
 
 # COVID19 Vaccinations - Cyprus
