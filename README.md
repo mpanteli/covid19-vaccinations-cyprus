@@ -5,13 +5,9 @@
 
 # COVID19 Vaccinations Cyprus
 
-Data for COVID-19 vaccinations in Cyprus. 
+Data and visualisations for COVID-19 vaccinations in Cyprus. 
 
-Compiled from official data published by the Cyprus Press and Information Office: 
-
-[https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou) [in Greek]
-
-Maintained by [Maria Panteli](https://mpanteli.github.io).
+Data compiled from [official reports published by the Cyprus Press and Information Office (in Greek)](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou).
 
 ## Visualisations
 
