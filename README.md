@@ -7,7 +7,7 @@
 
 Data and visualisations for COVID-19 vaccinations in Cyprus. 
 
-Data compiled from [official reports published by the Cyprus Press and Information Office (in Greek)](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou).
+The data are compiled from [official reports published by the Cyprus Press and Information Office](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou) [in Greek].
 
 ## Visualisations
 
@@ -16,4 +16,4 @@ Data compiled from [official reports published by the Cyprus Press and Informati
 
 ## License
 
-The visualisations and data created by the COVID19 Vaccinations Cyprus project are licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/). 
+The data and visualisations created by the COVID19 Vaccinations Cyprus project are licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/). 
