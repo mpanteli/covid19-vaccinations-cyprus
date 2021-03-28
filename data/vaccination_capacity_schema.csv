@@ -1,0 +1,12 @@
+column,format,description
+date,date [YYYY-MM-DD],Date of observation
+holidays_since_last_update,date [YYYY-MM-DD],Public holidays between observations
+total_vaccinations,integer,Total number of vaccinations administered
+vaccinations_since_last_update,integer,Number of vaccinations administered between observations
+min_vaccination_capacity_estimate,integer,Estimate of the minimum number of vaccinations administered
+max_vaccination_capacity_estimate,integer,Estimate of the maximum number of vaccinations administered
+active_vaccination_units_previously_reported,integer,Vaccination units reported in previous observation
+active_vaccination_units,integer,Vaccination units reported in current observation
+source_url,text,Link to the official report
+source_text,text [Greek],Text segment from official report (in Greek)
+notes,text,Additional notes regarding the data aggregation

@@ -1,0 +1,10 @@
+column,format,description
+date,date [YYYY-MM-DD],Date of observation
+appointments_start_date,date [YYYY-MM-DD],Starting date for vaccination appointments
+min_age,integer,Minimum age eligible for vaccination
+age_group,text,Age group eligible for vaccination
+age_group_population_released,integer,Number of people that became eligible for vaccination between observations
+total_age_group_population_released,integer,Total number of people eligible for vaccination
+source_url,text,Link to the official report
+source_text,text [Greek],Text segment from official report (in Greek)
+notes,text,Additional notes regarding the data aggregation
