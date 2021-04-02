@@ -7,7 +7,9 @@
 
 Data and visualisations for COVID-19 vaccinations in Cyprus. 
 
-Data compiled from [official reports published by the Cyprus Press and Information Office](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou) [in Greek].
+Data compiled from: 
+- [official reports published by the Cyprus Press and Information Office](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou) [in Greek]
+- [ECDC - Data on COVID-19 vaccination in the EU/EEA](https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea)
 
 ## Visualisations
 
@@ -19,6 +21,13 @@ Data compiled from [official reports published by the Cyprus Press and Informati
 - **Vaccination doses administered** [[CSV](data/Cyprus.csv) | [schema](data/Cyprus_schema.csv)]: Tracks the number of vaccination doses administered in Cyprus. 
 - **Weekly vaccination capacity** [[CSV](data/vaccination_capacity.csv) | [schema](data/vaccination_capacity_schema.csv)]: Tracks the number of active vaccination units and vaccination doses administered every week. 
 - **Vaccination eligibility by age group** [[CSV](data/vaccination_by_population_age.csv) | [schema](data/vaccination_by_population_age_schema.csv)]: Tracks the number of people eligible for vaccination based on age group criteria. 
+
+## Scripts
+
+Get the latest data for Cyprus from ECDC:
+```
+python scripts/ecdc.py --country-name Cyprus --output-path data/Cyprus.csv
+```
 
 ## License
 
