@@ -67,7 +67,7 @@ def main(country_name: str, output_path: str) -> None:
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Aggregate ECDC COVID-19 vaccination in the EU/EEA')
+        description='Aggregate ECDC Data - COVID-19 vaccination in the EU/EEA')
     parser.add_argument('--country-name', help="Country name")
     parser.add_argument('--output-path', help="Path to output file")
     args = parser.parse_args()

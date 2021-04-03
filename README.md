@@ -24,7 +24,7 @@ Data compiled from:
 
 ## Scripts
 
-Get the latest data for Cyprus from ECDC:
+Get the latest numbers for Cyprus from ECDC Data:
 ```
 python scripts/ecdc.py --country-name Cyprus --output-path data/Cyprus.csv
 ```
