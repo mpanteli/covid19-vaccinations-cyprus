@@ -21,7 +21,7 @@ SOURCE_URL = ('https://www.ecdc.europa.eu/en/publications-data/'
 
 
 def filter_data(df: pd.DataFrame, country: str) -> pd.DataFrame:
-    """ Filter rows for specific country, filter columns for OWID schema """
+    """ Filter rows for specific country """
     df_sub = df.loc[(df['ReportingCountry']==country) & 
                     (df['TargetGroup']=='ALL')]
     
@@ -35,7 +35,7 @@ def filter_data(df: pd.DataFrame, country: str) -> pd.DataFrame:
         min(datetime.strptime(week + '-7', '%G-W%V-%u').date(), 
             datetime.today().date()) for week in df_sub['YearWeekISO']
     ]
-    
+    df_sub.loc[:, 'total_received'] = df_sub['NumberDosesReceived'].cumsum()
     df_sub.loc[:, 'location'] = pycountry.countries.get(alpha_2=country).name
     df_sub.loc[:, 'vaccine'] = [
         VACCINE_MAPPER.get(vaccine, 'UNKNOWN') for vaccine in df_sub['Vaccine']
@@ -43,7 +43,8 @@ def filter_data(df: pd.DataFrame, country: str) -> pd.DataFrame:
     df_sub.loc[:, 'source_url'] = SOURCE_URL
     df_filtered = df_sub[['location', 'date', 'vaccine', 
                           'source_url', 'total_vaccinations', 
-                          'people_vaccinated', 'people_fully_vaccinated']]
+                          'people_vaccinated', 'people_fully_vaccinated',
+                          'total_received']]
     return df_filtered
 
 
@@ -53,7 +54,8 @@ def aggregate_data(df: pd.DataFrame) -> pd.DataFrame:
         {'vaccine': lambda x: ','.join(sorted(x.unique())),
          'total_vaccinations': 'max',
          'people_vaccinated': 'max',
-         'people_fully_vaccinated': 'max'})
+         'people_fully_vaccinated': 'max',
+         'total_received': 'max'})
     return df_agg.reset_index()
 
 
