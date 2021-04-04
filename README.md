@@ -11,9 +11,10 @@ Data aggregated from:
 - [official reports published by the Cyprus Press and Information Office](https://www.pio.gov.cy/coronavirus/categories/emvoliasmoi-kata-tou-koronoiou) [in Greek]
 - [ECDC - Data on COVID-19 vaccination in the EU/EEA](https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea)
 
-Visualisations
+Visualisations:
 
-- See the vaccination progress in graphs at [https://mpanteli.github.io/covid19-vaccinations-cyprus/](https://mpanteli.github.io/covid19-vaccinations-cyprus/)
+- See the vaccination progress in graphs at 
+[https://mpanteli.github.io/covid19-vaccinations-cyprus/](https://mpanteli.github.io/covid19-vaccinations-cyprus/)
 
 ## Datasets and schemas
 
