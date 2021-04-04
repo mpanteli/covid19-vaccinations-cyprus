@@ -1,0 +1,16 @@
+location,date,source_url,vaccine,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_received
+Cyprus,2020-12-27,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,Pfizer/BioNTech,0,0,0,9750.0
+Cyprus,2021-01-03,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,Pfizer/BioNTech,2976,2976,0,16575.0
+Cyprus,2021-01-10,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,Pfizer/BioNTech,6050,6050,0,23400.0
+Cyprus,2021-01-17,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"Moderna,Pfizer/BioNTech",10773,10444,329,31425.0
+Cyprus,2021-01-24,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"Moderna,Pfizer/BioNTech",18141,15354,2787,33855.0
+Cyprus,2021-01-31,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"Moderna,Pfizer/BioNTech",25576,19707,5869,43245.0
+Cyprus,2021-02-07,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,Pfizer/BioNTech,33364,23139,10225,48015.0
+Cyprus,2021-02-14,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Pfizer/BioNTech",44615,29778,14837,59895.0
+Cyprus,2021-02-21,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",57888,38667,19221,71655.0
+Cyprus,2021-02-28,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",77794,54914,22880,101355.0
+Cyprus,2021-03-07,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",98427,69686,28741,119145.0
+Cyprus,2021-03-14,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",122861,90085,32776,151275.0
+Cyprus,2021-03-21,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",130636,93528,37108,171405.0
+Cyprus,2021-03-28,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",146937,105887,41050,190305.0
+Cyprus,2021-04-04,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,"AstraZeneca,Moderna,Pfizer/BioNTech",154119,110063,44056,202125.0
