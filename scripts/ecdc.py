@@ -35,7 +35,8 @@ def filter_data(df: pd.DataFrame, country: str) -> pd.DataFrame:
         min(datetime.strptime(week + '-7', '%G-W%V-%u').date(), 
             datetime.today().date()) for week in df_sub['YearWeekISO']
     ]
-    df_sub.loc[:, 'total_received'] = df_sub['NumberDosesReceived'].cumsum()
+    df_sub.loc[:, 'total_received'] = (df_sub['NumberDosesReceived']
+                                       .cumsum().astype('int'))
     df_sub.loc[:, 'location'] = pycountry.countries.get(alpha_2=country).name
     df_sub.loc[:, 'vaccine'] = [
         VACCINE_MAPPER.get(vaccine, 'UNKNOWN') for vaccine in df_sub['Vaccine']
