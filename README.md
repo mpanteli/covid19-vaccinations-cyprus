@@ -18,7 +18,6 @@ Data aggregated from:
 ## Datasets and schemas
 
 - **Vaccination doses administered** [[CSV](data/Cyprus.csv) | [schema](data/Cyprus_schema.csv)]: Tracks the number of vaccination doses administered in Cyprus. 
-- **Weekly vaccination capacity** [[CSV](data/vaccination_capacity.csv) | [schema](data/vaccination_capacity_schema.csv)]: Tracks the number of active vaccination units and vaccination doses administered every week. 
 - **Vaccination eligibility by age group** [[CSV](data/vaccination_by_population_age.csv) | [schema](data/vaccination_by_population_age_schema.csv)]: Tracks the number of people eligible for vaccination based on age group criteria. 
 - **Vaccination doses delivered** [[CSV](data/Cyprus_ecdc.csv) | [schema](data/Cyprus_ecdc_schema.csv)]: Tracks the number of doses delivered to Cyprus. 
 
